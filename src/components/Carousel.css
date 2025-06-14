@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-items {
+  margin: 10px;
+  border: 1px solid rgb(24, 66, 80);
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-images {
+  border: 2px solid lightseagreen;
+  width: 500%;
+  transition: width 0.5s ease-in-out;
+  overflow: hidden;
+}
